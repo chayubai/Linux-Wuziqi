@@ -9,7 +9,7 @@ void process_bar()
      int i =  0;
      while(i <= 100)
      {
-          printf("[%-100s][%-3d%%][%c]\r",bar,i,lable[i%4]);
+          printf("Load.[%-100s][%-3d%%][%c]\r",bar,i,lable[i%4]);
 	  fflush(stdout);
 	  bar[i] = '#';
 	  i++;
